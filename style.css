@@ -13,12 +13,24 @@ body{
     background-color: aqua;
     background:linear-gradient(135deg,rgb(16, 162, 181),rgb(204, 85, 255));
     color: rgb(255, 255, 255);
-    margin: 100px auto 0;
+    margin: 60px auto 30px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
     
+    box-shadow: 0 0 20px rgba(147, 255, 93, 0.5);
+    animation: beat-glow 2s infinite;
 }
+
+@keyframes beat-glow {
+    0%, 100% {
+        box-shadow: 0 0 20px rgba(147, 255, 93, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 40px rgb(147, 255, 93);
+    }
+}
+
 .search{
     width: 100%;
     display: flex;
