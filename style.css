@@ -35,7 +35,7 @@ body{
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 10px;
+    font-size: 20px;
 }
 .search button{
     border: 0;
@@ -84,6 +84,11 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+.weather{
+    display: none;
+}
+
+
 /* waiting couple of hours to activate api */
 
 /* https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=759970069edd7ca186407cdc2e0bec7c */
