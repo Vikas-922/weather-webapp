@@ -38,7 +38,7 @@ body{
     justify-content: center;
 }
 .search input{
-    min-width: 160px;
+    width: 160px;
     border:  0;
     outline: 0;
     background:rgb(254, 254, 254);
